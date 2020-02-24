@@ -1,8 +1,10 @@
-function takeANumber(katzDeli, person){
+var number = 0 
+function takeANumber(katzDeli){
+  number = number + 1
   // add member to end of array
-  katzDeli.push(person)
+  katzDeli.push(number)
   //state which number member is in array
-  return "Welcome, " + person + ". You are number " + katzDeli.length + " in line.";
+  return "You are number " + number + " in line.";
   
 }
 
